@@ -31,9 +31,7 @@ public class AccountPageController {
 
 	@Autowired
 	UpdateValidator updateValidator;
-/*
- * This Object is unnessesary i guess because login validation is done by springs.
- */
+
 	@Autowired
 	LoginValidator loginValidator;
 	@Autowired
