@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/tags/header1.jsp" />
+		<put-attribute name="nav" value="/WEB-INF/tags/nav1.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tags/footer1.jsp" />
+	</definition>
+	<definition name="main" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/main.jsp" />
+	</definition>
+	<definition name="category" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/category.jsp" />
+	</definition>
+	<definition name="subbody" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/subbody.jsp" />
+	</definition>
+	<definition name="products1" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/products1.jsp" />
+	</definition>
+	<definition name="products2" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/products2.jsp" />
+	</definition>
+	<definition name="cart" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/cart.jsp" />
+	</definition>
+	<definition name="orderplace" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/orderplace.jsp" />
+	</definition>
+	<definition name="login" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	<definition name="register" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />
+	</definition>
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+	</definition>
+	<definition name="profile" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/profile.jsp" />
+		
+	</definition>
+	<definition name="success" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/success.jsp" />
+	</definition>
+	<definition name="successreg" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/successreg.jsp" />
+	</definition>
+	
+	<definition name="update" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/update.jsp" />
+	</definition>
+	<definition name="nothingcart" extends="base.definition">
+		<put-attribute name="title" value="thebodyshop" />
+		<put-attribute name="body" value="/WEB-INF/jsp/nothingcart.jsp" />
+	</definition>
+	
+	
+	
+
+
+	<!-- <definition name="contact" extends="base.definition"> <put-attribute 
+		name="title" value="Contact Manager" /> <put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" 
+		/> </definition> -->
+
+</tiles-definitions>
